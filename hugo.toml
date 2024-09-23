@@ -1,4 +1,34 @@
-baseURL = 'https://socials.blvckleg.dev/'
-languageCode = 'en-us'
-title = 'Socials | blvckleg.dev'
-theme = 'ananke'
+baseURL = "https://socials.blvckleg.dev/"
+languageCode = "en_us"
+title = "socials | blvckleg.dev"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "sanriodev"
+  description = "typescript wizard 🧙"
+  github = "sanriodev"
+  twitter = "blvckleg"
+  linkedin = "Matteo Juen"
+  instagram = "sanrio_bf"
+  url = "https://blvckleg.dev"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🤓"
+  favicon = "/images/favicon.ico"
+  avatar = "https://avatars.githubusercontent.com/sanriodev"
+  headerIcon = "/images/GitHub-Mark-white.png"
+  location = "Austria"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/sanriodev"
+  [[params.links]]
+    title = "Link2"
+    href = "https://blvckleg.dev"
+    icon = "https://avatars.githubusercontent.com/sanriodev"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

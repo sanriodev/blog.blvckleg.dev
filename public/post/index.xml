@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>socials | blvckleg.dev</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on socials | blvckleg.dev</description>
+    <title>Posts on socials | blvckleg.dev</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on socials | blvckleg.dev</description>
     <generator>Hugo</generator>
     <language>en_us</language>
     <lastBuildDate>Mon, 23 Sep 2024 09:28:44 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post</title>
       <link>http://localhost:1313/post/post/</link>
