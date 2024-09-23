@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.0.1...v1.0.2) (2024-09-23)
+
+
+### Bug Fixes
+
+* favicon and gh-mark typo ([dbac27f](https://github.com/sanriodev/blog.blvckleg.dev/commit/dbac27f6b7e093d6d8959e4ee069fc7c8f0ff4db))
+
 ## [1.0.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.0.0...v1.0.1) (2024-09-23)
 
 
