@@ -19,7 +19,7 @@ pygmentsUseClasses = true
   userStatusEmoji = "🤓"
   favicon = "/images/favicon.ico"
   avatar = "https://avatars.githubusercontent.com/sanriodev"
-  headerIcon = "/images/GitHub-Mark-white.png"
+  headerIcon = "/images/gitHub-mark-white.png"
   location = "Austria"
 
   [[params.links]]
