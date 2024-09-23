@@ -1,6 +1,6 @@
-baseURL = "https://socials.blvckleg.dev/"
+baseURL = "https://blog.blvckleg.dev/"
 languageCode = "en_us"
-title = "socials | blvckleg.dev"
+title = "blog | blvckleg.dev"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -13,7 +13,7 @@ pygmentsUseClasses = true
   linkedin = "Matteo Juen"
   instagram = "sanrio_bf"
   url = "https://blvckleg.dev"
-  keywords = "blog, google analytics"
+  keywords = "blog"
   rss = true
   lastmod = true
   userStatusEmoji = "🤓"
@@ -22,9 +22,6 @@ pygmentsUseClasses = true
   headerIcon = "/images/GitHub-Mark-white.png"
   location = "Austria"
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/sanriodev"
   [[params.links]]
     title = "Link2"
     href = "https://blvckleg.dev"
