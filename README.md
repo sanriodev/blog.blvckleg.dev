@@ -1,1 +1,1 @@
-# socials.blvckleg.dev
+# blog.blvckleg.dev
