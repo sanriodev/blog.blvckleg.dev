@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.0.0...v1.0.1) (2024-09-23)
+
+
+### Bug Fixes
+
+* github-logo ([0729f8f](https://github.com/sanriodev/blog.blvckleg.dev/commit/0729f8f272e14b9cb8b636f96b39fae6d7a60277))
+
 ## 1.0.0 (2024-09-23)
 
 
