@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.0.2...v1.1.0) (2024-10-22)
+
+
+### Features
+
+* try to use gittalk ([b6978e0](https://github.com/sanriodev/blog.blvckleg.dev/commit/b6978e05b84a732dded4e459d7110987dfba29ba))
+
 ## [1.0.2](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.0.1...v1.0.2) (2024-09-23)
 
 
