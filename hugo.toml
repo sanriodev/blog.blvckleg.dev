@@ -21,6 +21,20 @@ pygmentsUseClasses = true
   avatar = "https://avatars.githubusercontent.com/sanriodev"
   headerIcon = "/images/github-mark-white.png"
   location = "Austria"
+  enableGitalk = true
+
+  [params.gitalk]
+    clientID = "Iv23ct9oFW1JsyqzN592"
+    clientSecret = getenv("GITALK_CLIENT_SECRET")
+    repo = "blog.blvckleg.dev"
+    owner = "sanriodev"
+    admin = "sanriodev"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 30
+    pagerDirection = "last"
+    createIssueManually = false
+    distractionFreeMode = false
 
   [[params.links]]
     title = "Link2"
