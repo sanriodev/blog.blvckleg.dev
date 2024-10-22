@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.0...v1.1.1) (2024-10-22)
+
+
+### Bug Fixes
+
+* get secret in wf ([6e9397e](https://github.com/sanriodev/blog.blvckleg.dev/commit/6e9397ec6b27ed02b706f68993c4853cd78a53ac))
+
 ## [1.1.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.0.2...v1.1.0) (2024-10-22)
 
 
