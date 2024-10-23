@@ -42,9 +42,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: get github api secret
-        run: |
-          sed -i "s/SECRET_PLACEHOLDER/${{ secrets.GITALK_CLIENT_SECRET }}/g" hugo.toml
+
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: '/SECRET_PLACEHOLDER/g'
+          replace: ${{ format('{0}', secrets.GITALK_CLIENT_SECRET) }}
+          regex: true
+          include: 'hugo.toml'
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
