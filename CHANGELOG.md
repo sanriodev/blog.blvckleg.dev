@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.2.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.4...v1.2.0) (2024-10-23)
+
+
+### Features
+
+* add github style ([0deb79b](https://github.com/sanriodev/blog.blvckleg.dev/commit/0deb79bfe7a05ee39631fc2272ae3796e1e6269c))
+* init hugo project ([b51ce32](https://github.com/sanriodev/blog.blvckleg.dev/commit/b51ce32403a2533a422c3abf177165dc2a43476d))
+* init posts ([7a5070b](https://github.com/sanriodev/blog.blvckleg.dev/commit/7a5070b6d176d789494766a23de45f3852763245))
+* try to use gittalk ([b6978e0](https://github.com/sanriodev/blog.blvckleg.dev/commit/b6978e05b84a732dded4e459d7110987dfba29ba))
+
+
+### Bug Fixes
+
+* add unwanted stuff to gitignore ([42070b6](https://github.com/sanriodev/blog.blvckleg.dev/commit/42070b6139842cd9a190e25b7b5e59595e3b1bc3))
+* bash substitution ([0b6da55](https://github.com/sanriodev/blog.blvckleg.dev/commit/0b6da555b63fad2c0ec767afcba6caabf503ec79))
+* favicon and gh-mark typo ([dbac27f](https://github.com/sanriodev/blog.blvckleg.dev/commit/dbac27f6b7e093d6d8959e4ee069fc7c8f0ff4db))
+* get secret in wf ([6e9397e](https://github.com/sanriodev/blog.blvckleg.dev/commit/6e9397ec6b27ed02b706f68993c4853cd78a53ac))
+* github-logo ([0729f8f](https://github.com/sanriodev/blog.blvckleg.dev/commit/0729f8f272e14b9cb8b636f96b39fae6d7a60277))
+* invalid toml ([fe425db](https://github.com/sanriodev/blog.blvckleg.dev/commit/fe425db296021c85e8abaf51b9281df0c8446737))
+* try with gha ([355d03c](https://github.com/sanriodev/blog.blvckleg.dev/commit/355d03ced42775dac83ce2dd1f6a85e9a75c3f39))
+* use old method ([f3beeda](https://github.com/sanriodev/blog.blvckleg.dev/commit/f3beeda50043cbe655aa5777ce2cb50a0a3c414f))
+* yml ([e4c46f5](https://github.com/sanriodev/blog.blvckleg.dev/commit/e4c46f5b013643f171a915a07d31246dc84c2583))
+
 ## [1.1.4](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.3...v1.1.4) (2024-10-23)
 
 
