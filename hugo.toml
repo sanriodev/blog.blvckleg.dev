@@ -22,6 +22,7 @@ pygmentsUseClasses = true
   headerIcon = "/images/github-mark-white.png"
   location = "Austria"
   enableGitalk = true
+  enableSearch = true
 
   [params.gitalk]
     clientID = "Ov23licg58XxmAPd7Tqd"
@@ -43,3 +44,11 @@ pygmentsUseClasses = true
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
