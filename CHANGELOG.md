@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.2.0...v1.2.1) (2024-10-23)
+
+
+### Bug Fixes
+
+* made an oopsie ([8bf7883](https://github.com/sanriodev/blog.blvckleg.dev/commit/8bf7883f3ef1a09d0341d847413306122ae25537))
+
 ## [1.2.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.4...v1.2.0) (2024-10-23)
 
 
