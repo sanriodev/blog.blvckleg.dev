@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.3...v1.1.4) (2024-10-23)
+
+
+### Bug Fixes
+
+* use old method ([f3beeda](https://github.com/sanriodev/blog.blvckleg.dev/commit/f3beeda50043cbe655aa5777ce2cb50a0a3c414f))
+
 ## [1.1.3](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.2...v1.1.3) (2024-10-23)
 
 
