@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.2...v1.1.3) (2024-10-23)
+
+
+### Bug Fixes
+
+* try with gha ([355d03c](https://github.com/sanriodev/blog.blvckleg.dev/commit/355d03ced42775dac83ce2dd1f6a85e9a75c3f39))
+
 ## [1.1.2](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.1...v1.1.2) (2024-10-23)
 
 
