@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.1...v1.1.2) (2024-10-23)
+
+
+### Bug Fixes
+
+* bash substitution ([0b6da55](https://github.com/sanriodev/blog.blvckleg.dev/commit/0b6da555b63fad2c0ec767afcba6caabf503ec79))
+* invalid toml ([fe425db](https://github.com/sanriodev/blog.blvckleg.dev/commit/fe425db296021c85e8abaf51b9281df0c8446737))
+
 ## [1.1.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.1.0...v1.1.1) (2024-10-22)
 
 
