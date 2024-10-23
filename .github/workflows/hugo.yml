@@ -44,7 +44,7 @@ jobs:
           submodules: recursive
       - name: get github api secret
         run: |
-          echo "GITALK_CLIENT_SECRET=${{ secrets.GITALK_CLIENT_SECRET }}" > hugo.toml
+          sed -i "s/SECRET_PLACEHOLDER/${{ secrets.GITALK_CLIENT_SECRET }}/g" hugo.toml
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

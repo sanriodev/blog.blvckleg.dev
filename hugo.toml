@@ -25,7 +25,7 @@ pygmentsUseClasses = true
 
   [params.gitalk]
     clientID = "Iv23ct9oFW1JsyqzN592"
-    clientSecret = "${GITALK_CLIENT_SECRET}"
+    clientSecret = "SECRET_PLACEHOLDER"
     repo = "blog.blvckleg.dev"
     owner = "sanriodev"
     admin = "sanriodev"
