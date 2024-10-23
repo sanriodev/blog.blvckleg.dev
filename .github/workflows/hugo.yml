@@ -45,6 +45,7 @@ jobs:
       - name: get github api secret
         run: |
           sed -i "s/SECRET_PLACEHOLDER/${{ secrets.GITALK_CLIENT_SECRET }}/g" hugo.toml
+          cat hugo.toml
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
