@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.2.1...v1.3.0) (2024-10-23)
+
+
+### Features
+
+* allow local search ([a6c1ac0](https://github.com/sanriodev/blog.blvckleg.dev/commit/a6c1ac077342b21a87336cdb68263b779a465ff2))
+* building a cli tool with go ([7852f1d](https://github.com/sanriodev/blog.blvckleg.dev/commit/7852f1d1931c19e6a7c88031b6405e21ec5e088d))
+
 ## [1.2.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.2.0...v1.2.1) (2024-10-23)
 
 
