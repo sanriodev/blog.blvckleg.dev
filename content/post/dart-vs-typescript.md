@@ -60,16 +60,36 @@ Both TypeScript and Flutter support async/await for handling asynchronous operat
   }
   ```
 
-  - **Dart**: Async/await in Dart feels very similiar, making it also very straightforward to use for Typescript or Javascript developers.
+- **Dart**: Async/await in Dart feels very similiar, making it also very straightforward to use for Typescript or Javascript developers.
 
-  ```dart
-  Future<void> fetchData() async {
-    try {
-      final response = await http.get('https://api.example.com/data');
-      final data = jsonDecode(response.body);
-      print(data);
-    } catch (error) {
-      print('Error fetching data: $error');
-    }
+```dart
+Future<void> fetchData() async {
+  try {
+    final response = await http.get('https://api.example.com/data');
+    final data = jsonDecode(response.body);
+    print(data);
+  } catch (error) {
+    print('Error fetching data: $error');
   }
-  ```
+}
+```
+
+### Null safety - Typescripts biggest enemy
+
+So in order to fully cover all the pros and cons of dart's **sound null safety** I would probably have to be a lot better at my job and/or intelligent because having this conversation to the fullest could take a long while.
+
+There are plenty of benefits to **sound null safety**. That is without a doub a fact, especially when it comes to how error prone an application can get when you happen to forget that in typescript a value can be **null** or **undefined** at runtime.
+
+Of course typescript has some form of null safety. Typescript will helps prevent null-related errors with static type checking and so on but it cannot guarantee that a value isn't null or undefined during runtime.
+
+To be fair this isn't really a problem as long as you try to write safe code but it is just as easy to write unsafe code in typescript.
+
+Now without reading the next little segment. Could you tell where and why the code below is problematic?
+
+```typescript
+async getNames(): Promise<string[]> {
+    const names = await fetch(''/someurl');
+
+    return names;
+}
+```
