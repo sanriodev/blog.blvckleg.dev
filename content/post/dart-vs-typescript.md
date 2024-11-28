@@ -64,12 +64,12 @@ Both TypeScript and Flutter support async/await for handling asynchronous operat
 
   ```dart
   Future<void> fetchData() async {
-  try {
-    final response = await http.get('https://api.example.com/data');
-    final data = jsonDecode(response.body);
-    print(data);
-  } catch (error) {
-    print('Error fetching data: $error');
-  }
+    try {
+      final response = await http.get('https://api.example.com/data');
+      final data = jsonDecode(response.body);
+      print(data);
+    } catch (error) {
+      print('Error fetching data: $error');
+    }
   }
   ```
