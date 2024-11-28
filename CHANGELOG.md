@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.4.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.3.0...v1.4.0) (2024-11-28)
+
+
+### Features
+
+* add content ([0c92050](https://github.com/sanriodev/blog.blvckleg.dev/commit/0c9205071d3cd6be52744544bd94cfb94be172de))
+* goji ([406e4f3](https://github.com/sanriodev/blog.blvckleg.dev/commit/406e4f3efadd322d12e5c696ebdfebe5bc395b06))
+* unpin ([f8fe887](https://github.com/sanriodev/blog.blvckleg.dev/commit/f8fe8874557d2914edb137f3ec75838fbdd74bd3))
+* wip blog ([15ae3de](https://github.com/sanriodev/blog.blvckleg.dev/commit/15ae3de376e71b719c1f806d7c603feba82e4721))
+* wip new blog ([dd8fd93](https://github.com/sanriodev/blog.blvckleg.dev/commit/dd8fd93c166eff6f67db94a153b9bc86273c99f7))
+
 ## [1.3.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.2.1...v1.3.0) (2024-10-23)
 
 
