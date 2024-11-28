@@ -2,7 +2,7 @@
 title = 'Hello blog.blvckleg.dev'
 date = 2024-09-22T21:49:08+02:00
 draft = false
-pin =  true
+pin =  false
 +++
 
 ## About this blog
