@@ -2,7 +2,7 @@
 title = 'Similiar yet different: Dart vs Typescript'
 date = 2024-09-24T10:21:42+02:00
 draft = false
-pin = true
+pin = false
 +++
 
 # TypeScript and Dart: Taking a look!
