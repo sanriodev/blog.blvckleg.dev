@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.4.0...v1.4.1) (2024-11-28)
+
+
+### Bug Fixes
+
+* hedgedoc line number not supported ([d1f871e](https://github.com/sanriodev/blog.blvckleg.dev/commit/d1f871e6d390823a613e33af0db67ac528a49b75))
+
 ## [1.4.0](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.3.0...v1.4.0) (2024-11-28)
 
 
