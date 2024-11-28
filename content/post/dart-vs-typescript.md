@@ -48,7 +48,7 @@ Both TypeScript and Flutter support async/await for handling asynchronous operat
 
 - **TypeScript**: Async/await in TypeScript is built on top of JavaScript's promises, making it straightforward to use for developers familiar with JavaScript.
 
-```typescript=
+```typescript
  async function fetchData() {
    try {
      const response = await fetch('https://api.example.com/data');
@@ -62,7 +62,7 @@ Both TypeScript and Flutter support async/await for handling asynchronous operat
 
  - **Dart**: Async/await in Dart feels very similiar, making it also very straightforward to use for Typescript or Javascript developers.
 
-```dart=
+```dart
  Future<void> fetchData() async {
    try {
      final response = await http.get('https://api.example.com/data');
@@ -86,7 +86,7 @@ To be fair this isn't really a problem as long as you write safe code but it is 
 #### The problem with typescript and null safety
 Now without reading the next little segment. Could you tell where and why the code below is problematic?
 
-```typescript=
+```typescript
 async getUserNamesToUpperCase(): Promise<string[]> {
   const users = await fetch('/users');
 
@@ -103,13 +103,13 @@ const users = null;
 users.map();
 ```
 2. What if `fetch()` returns an empty array.... well that would be different from the above mentioned case of course but it would still crash our program.. just in a different way... If `fetch()` returns an empty array it does in fact implement the `map` method but when trying to access the property `name` for each element (none) in the array it would still throw an error since you obviously can't access a property of `undefined`
-```typescript=
+```typescript
 const users = [];
 //throws a type error
 users.map((user) => user.name)
 ```
 3. let's assume `fetch` does indeed return an array of users... for our example containing one user object... but the property `name` is `null` like so. That would again... throw an unexpected error. When we are trying to call `user.name.toUpperCase()`since `null` or `undefined` is not a `string` and does not implement our called function.
-```typescript= 
+```typescript
 const user = {id: 1, name null};
 //throws a  type error
 user.name.toUpperCase();
@@ -119,7 +119,7 @@ user.name.toUpperCase();
 
 The way dart makes code like this safer is ***sound null safety***. Meaning no variable that is not explicitly declared us `nullable` **cannot be null**.
 
-```dart=
+```dart
 //this is not possible since the type String is not nullable
 //this variable needs to be initialized with a non null value
 const String myNullString;
@@ -135,7 +135,7 @@ Now whenever you want to use that variable in any way you either need to mark it
 
 for example:
 
-```dart=
+```dart
 void printString(String input) {
 print(input);
 }
@@ -157,7 +157,7 @@ that it is indeed not null
 
 
 - option 1: function expects parameter that can be null 
-```dart=
+```dart
 void printString(String? input) {
   if(input != null){
   print(input);
@@ -166,7 +166,7 @@ void printString(String? input) {
 ```
 
 - option 2: check the variable first to make sure it is not null
-```dart=
+```dart
 void printString(String input) {
 print(input);
 }
