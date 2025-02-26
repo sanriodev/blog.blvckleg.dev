@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.4.1...v1.4.2) (2025-02-26)
+
+
+### Bug Fixes
+
+* linkedin link ([2c9a3b7](https://github.com/sanriodev/blog.blvckleg.dev/commit/2c9a3b7ef819a93b486bd1b93ff365965e6279c9))
+
 ## [1.4.1](https://github.com/sanriodev/blog.blvckleg.dev/compare/v1.4.0...v1.4.1) (2024-11-28)
 
 
